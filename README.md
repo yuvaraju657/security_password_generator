@@ -17,23 +17,17 @@ This is a simple web application built with Streamlit that allows users to gener
 
 ## How to Use
 
-1.  **Clone the Repository (Optional):** If you have the code locally, skip this step. Otherwise, clone the repository from GitHub:
-    ```bash
-    git clone <repository_url>
-    cd <repository_directory>
-    ```
-
-2.  **Install Dependencies:** Make sure you have Streamlit installed. If not, you can install it using pip:
+1.  **Install Dependencies:** Make sure you have Streamlit installed. If not, you can install it using pip:
     ```bash
     pip install streamlit
     ```
 
-3.  **Run the Application:** Navigate to the directory containing the Python script (`your_script_name.py`, likely the name you saved the provided code as) and run the Streamlit app:
+2.  **Run the Application:** Navigate to the directory containing the Python script (`app.py`, likely the name you saved the provided code as) and run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
 
-4.  **Interact with the Generator:** A new tab will open in your web browser displaying the Secure Password Generator.
+3.  **Interact with the Generator:** A new tab will open in your web browser displaying the Secure Password Generator.
     * Use the slider to select the desired password length.
     * Check the boxes to include uppercase letters, numbers, and special characters as needed.
     * Click the "Generate Password" button.
